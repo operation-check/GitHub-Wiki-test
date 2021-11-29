@@ -10,11 +10,9 @@ on:
 jobs:
   job1:
     runs-on: ubuntu-latest
-    steps:
-      #- name: build
-      - run: echo Job1
+    name: build
+
   job2:
     runs-on: ubuntu-latest
-    steps:
-      #- name: deploy
-      - run: echo Job2
+    name: deploy
+
