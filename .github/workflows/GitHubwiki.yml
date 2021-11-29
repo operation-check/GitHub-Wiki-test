@@ -11,4 +11,4 @@ jobs:
   job1:
     name: build
   job2:
-    name deploy
+    name: deploy
