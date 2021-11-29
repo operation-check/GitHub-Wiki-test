@@ -9,16 +9,15 @@ on:
 
 jobs:
   job1:
-    name: build
+    name: job1
     runs-on: ubuntu-latest
     steps:
-      - run: echo job1 build
+      - run: echo job1 run
 
   job2:
-    needs: job1
-    name: deploy
+    name: job2
     runs-on: ubuntu-latest
     steps:
-      - run: echo job2 deploy
+      - run: echo job2 run
 
 
