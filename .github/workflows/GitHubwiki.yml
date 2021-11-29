@@ -8,12 +8,13 @@ on:
       - main
 
 jobs:
-    runs-on: ubuntu-latest
-      step:
-      - uses: actions/checkout@v2
   job1:
+    runs-on: ubuntu-latest
+    steps:
       - name: build
-        run: echo Job1
+      - run: echo Job1
   job2:
+    runs-on: ubuntu-latest
+    steps:
       - name: deploy
-        run: echo Job2
+      - run: echo Job2
