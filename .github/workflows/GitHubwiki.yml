@@ -9,10 +9,8 @@ on:
 
 jobs:
   job1:
-    runs-on: ubuntu-latest
     name: build
 
   job2:
-    runs-on: ubuntu-latest
     name: deploy
 
