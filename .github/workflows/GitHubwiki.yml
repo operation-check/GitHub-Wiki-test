@@ -10,5 +10,7 @@ on:
 jobs:
   job1:
       - name: build
+        run: echo Job1
   job2:
       - name: deploy
+        run: echo Job2
