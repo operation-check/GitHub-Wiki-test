@@ -6,3 +6,6 @@ wikiはfreeアカではpublicでしか利用できないためpublicで展開。
 
 wikiをクリックすることでwikiへと遷移できる。
 wikiをある程度触っている人なら結構使いやすい気もする（markdownがそのまま使える）。
+
+wiki page
+https://github.com/operation-check/GitHub-Wiki-test-public/wiki
