@@ -8,8 +8,6 @@ on:
       - main
 
 jobs:
-  runs-on: ubuntu-latest
-    - uses: actions/checkout@v2
   job1:
       - name: build
   job2:
