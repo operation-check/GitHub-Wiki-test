@@ -8,6 +8,9 @@ on:
       - main
 
 jobs:
+    runs-on: ubuntu-latest
+      step:
+      - uses: actions/checkout@v2
   job1:
       - name: build
         run: echo Job1
